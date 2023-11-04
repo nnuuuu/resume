@@ -1,69 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume01</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-
-      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-
+    <meta charset="utf-8">
+    <meta name="description" content="Tanagit Resume ">
+    <title>Tanagit Resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&amp;display=swap"
-
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&amp;display=swap"
       rel="stylesheet">
   </head>
-  <body>
+  <body class="my-bg">
     <div class="container">
+      <div class="row"><img src="images/banner01.png" alt="Tanagit"></div>
+      <div class="row"><img src="images/banner02.png" alt="Tanagit"></div>
       <div class="row">
-        <div class="col-md-12">
-          <div style="text-align: left;"><img alt="Bootstrap Image Preview" src="images/IMG20230811195801.jpg"
-
-              class="rounded-circle" height="600" width="500"></div>
-          <h3 style="text-align: left;"> ธนกฤต แสงเงิน </h3>
+        <div class="col-md-6">
+          <h3>ข้อมูลส่วนตัว </h3>
+          <p> นายธนกฤต แสงเงิน ชื่อเล่น:นุ อายุ:20 ศาสนา:อิสลาม สัญชาติ:ไทย
+            ที่อยู่:83/2 หมู่.4 ตำบล.ท่าแร้งออก อำเภอ.บ้านแหลม จังหวัด.เพชรบุรี
+          </p>
+          <h3>ช่องทางการติดต่อ </h3>
+          <p> อีเมล:<a href="mailto:file:///C:/640510427/index.html">tsangngen@gmail.com
+              </a></p>
+          <p> เบอร์โทร:0651190407 </p>
+          <h3>การศึกษา </h3>
+          <p> มหาวิทยาลัยศิลปากร สนามจันทร์ คณะอักรศาสตร์
+            สาขาวิชาเอกสารสนเทศศาสตร์และบรรณารักศาสตร์ GPA:2.71 2021-ปัจจุบัน</p>
+          <p> โรงเรียนพรหมานุสรณ์จังหวัดเพชรบุรี หลักสูตร:ศิลป์-ภาษา GPA:3.20
+            2015-2020</p>
+        </div>
+        <div class="col-md-6">
+          <h3>สกิล/ทักษะ </h3>
+          <h3>ภาษา </h3>
+          <p> ไทย:ดีเยี่ยม อังกฤษ:ปานกลาง เกาหลี:ปานกลาง</p>
+          <h3>โปรแกรม </h3>
+          <p> Word:ปานกลาง Power Point:ปานกลาง BlueGriffon:ปานกลาง </p>
+          <h3>กีฬา </h3>
+          <p> ฟุตบอล:ดี แบดมินตัน:ดี ฟุตซอล:ปานกลาง </p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6">
-          <dl>
-            <h5><dt> ประวัติการศึกษา</dt>
-            </h5>
-            <dd> มหาวิทยาลัยศิลปาร คณะอักษรศาสตร์
-              สาขาวิชาสารสนเทศศาสตร์และบรรณารักศาสตร์ 2021-ปัจจุบัน</dd>
-            <dd>โรงเรียนพรหมานุสรณ์จังหวัดเพชรบุรี 2015-2020</dd>
-            <h5><dt>ข้อมูลติดต่อ </dt>
-            </h5>
-            <dd> อีเมล:<a href="mailto:file:///D:/640510427/%E0%B9%80%E0%B8%A3%E0%B8%8B%E0%B8%B9%E0%B8%A7%E0%B8%A7%E0%B8%A7/resume/width=%22500%22%20height=%22600%22">tsangngen@gmail.com</a>
-            </dd>
-            <dd>เบอร์โทร:065-119-0407 </dd>
-            <dd> ที่อยู่:83/2 ม.4 ต.ท่าแร้งออก อ.บ้านแหลม จ.เพชรบุรี</dd>
-            <h5><dt> ข้อมูลส่วนตัว </dt>
-            </h5>
-            <dd> ชื่อ:นายธนกฤต แสงเงิน ชื่อเล่น:นุ อายุ:20 สัญชาติ:ไทย
-              รหัสนักศึกษา:640510427 </dd>
-          </dl>
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators"> <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button> </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="images/nu01.jpg" class="d-block w-100"
+                  alt="Tanagit"></div>
+              <div class="carousel-item"> <img src="images/nu02.jpg" class="d-block w-100"
+                  alt="Tanagit"> </div>
+              <div class="carousel-item"> <img src="images/nu03.jpg" class="d-block w-100"
+                  alt="Tanagit"> </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span> </button> <button
+              class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span> </button> </div>
         </div>
-        <div class="col-md-6">
-          <dl>
-            <h5><dt> ภาษา </dt>
-            </h5>
-            <dd> ไทย:คล่องแคล่ว อังกฤษ:ปานกลาง เกาหลี:พอสนทนา</dd>
-            <h5><dt> ความสามารถพิเศษ </dt>
-            </h5>
-            <dd> โปรแกรม power point:ปานกลาง โปรแกรม bluegriffon:ปานกลาง โปรแกรม
-              word:ปานกลาง</dd>
-          </dl>
+        <div class="col-md-6"><img src="images/banner03.png" alt="Tanagit"> <button
+            type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            click </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Motto</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button> </div>
+                <div class="modal-body"> It is what it is</div>
+                <div class="modal-footer"> <button type="button" class="btn btn-secondary"
+                    data-bs-dismiss="modal">Close</button> </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-
-integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-
-crossorigin="anonymous"></script>
-    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script> </div>
   </body>
 </html>
